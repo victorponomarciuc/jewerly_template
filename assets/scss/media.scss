@@ -1,0 +1,72 @@
+@media screen and (max-width: 990px) {
+  .header {
+    height: auto;
+    width: 100%;
+  }
+  .navbar-collapse {
+    background-color: #3f5b2c;
+    display: flex;
+    flex-direction: column;
+    padding-right: 80%;
+    justify-content: left;
+  }
+  .nav-link {
+    color: #ffffff;
+  }
+  .nav-link:hover {
+    color: #ffffff;
+    border: 1px solid #c3ccb7;
+    width: auto;
+  }
+  .navbar-expand-lg{
+    display: flex;
+  }
+  .navigation{
+    display: none;
+  }
+  .dropdown-item{
+    font-size: 12px;
+  }
+  .dropdown-advanced-min, .dropdown-pages-min{
+    border: none;
+    transform: translate(25px);
+    margin: 0;
+    padding: 0;
+    display: none;
+  }
+  .dropblock::before{
+    display: block;
+  }
+  .instagram,
+  .pinterest,
+  .facebook {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px 0px 10px;
+    background-size: 50%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  .footer p {
+    font-size: 16px;
+    color: white;
+  }
+  .footer {
+    padding: 2%;
+  }
+  .slide {
+    display: none;
+  }
+  .minimizate {
+    display: block;
+  }
+  .pagiantion_post{
+    flex-direction: column;
+  }
+  .social_footer{
+    flex-direction: column;
+    justify-content: center;
+  }
+}
