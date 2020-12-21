@@ -1055,10 +1055,6 @@ a:hover {
 
 .user_img1, .user_img2, .user_img3 {
   border-radius: 50%;
-  background-position: 50% 50%;
-  background-size: cover;
-  width: 150px;
-  height: 90px;
   margin-right: 20px;
 }
 
@@ -1095,18 +1091,6 @@ form input {
   -webkit-transform: translate(50px);
       -ms-transform: translate(50px);
           transform: translate(50px);
-}
-
-.user_img1 {
-  background-image: url(../img/coment1.png);
-}
-
-.user_img2 {
-  background-image: url(../img/coment2.png);
-}
-
-.user_img3 {
-  background-image: url(../img/coment3.png);
 }
 
 .coment {
